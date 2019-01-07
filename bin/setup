@@ -1,0 +1,15 @@
+#!/bin/bash
+
+
+if [ ! -f .ruby-version ]; then
+  echo ""
+  echo "Setting up .ruby-version..."
+  cp .ruby-version.sample .ruby-version
+  cd .
+  echo "Set up .ruby-version..."
+  echo ""
+fi
+echo "Bundling..."
+bundle
+echo "All done!"
+echo ""
