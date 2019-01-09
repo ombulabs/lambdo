@@ -6,6 +6,13 @@ You can quickly set me up like this:
 
     ./bin/setup
 
+And add your AWS credentials in `~/.aws/credentials`:
+```
+[default]
+aws_access_key_id = <Replace with your aws_access_key_id>
+aws_secret_access_key = <Replace with your aws_secret_access_key>
+```
+
 ## IRB
 
 You can test `irbLambda` running this:
